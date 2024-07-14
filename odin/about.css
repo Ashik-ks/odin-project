@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}
+.navimg{
+    margin-top: 13px;
+}
+.nav{
+    margin-left: 13%;
+}
+.btn1{
+    border-radius: 4px;
+   border: 2px solid rgb(49, 150, 19);
+}
+.studytext{
+    font-size: 19px;
+    font-weight: 500;
+}
+.btnlikediv{
+    height: 75px;
+}
+.kingimg{
+    width: 60%;
+    height: 300px;
+}
+.btn6{
+    width: 200px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.kingtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:973px){
+    .nav-item,.navbar-brand,.btn1{
+      display: none;
+    }
+}
+@media only screen  and (max-width:973px){
+    .hidden{
+      display: block;
+      position: absolute;
+      right: 1%;
+    }
+}
+@media only screen  and (max-width:1024px){
+    .first{
+      display: none;
+    }
+}
+@media only screen  and (max-width:525px){
+    .bookdiv{
+     display: flex;
+     flex-direction: column;
+    }
+}
+@media only screen  and (max-width:525px){
+    .studyimg{
+     margin-left: 120px;
+    }
+}
+@media only screen  and (max-width:525px){
+    .studytext{
+    margin-left: 75px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    }
+}
+@media only screen  and (max-width:525px){
+    .studytext2{
+    max-width: 100vw;
+    margin-left: 75px;
+    }
+}
+@media only screen  and (max-width:525px){
+    .studytext3{
+    max-width: 100vw;
+    margin-left: 120px;
+    font-size: 11px;
+    font-weight: 700;
+    }
+}
+@media only screen  and (max-width:525px){
+    .studytext4{
+    max-width: 100vw;
+    margin-left: 100px;
+    font-size: 11px;
+    font-weight: 700;
+    }
+}
+@media only screen  and (max-width:750px){
+    .mmmm{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    }
+}

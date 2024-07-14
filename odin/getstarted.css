@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}
+.navimg{
+    margin-top: 13px;
+}
+.nav{
+    margin-left: 13%;
+}
+.btn1{
+    border-radius: 4px;
+   border: 2px solid rgb(49, 150, 19);
+}
+.divzindex{
+    z-index: 1;
+}
+.twobtns{
+    margin-left: 5%;
+      display: flex;
+      gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:1024px){
+    .first{
+      display: none;
+    }
+}
+@media only screen  and (max-width:973px){
+    .nav-item,.navbar-brand,.btn1{
+      display: none;
+    }
+}
+@media only screen  and (max-width:973px){
+    .hidden{
+      display: block;
+      position: absolute;
+      right: 1%;
+    }
+}
+@media only screen  and (max-width:973px){
+    .firstcontainer1{
+      display: none;
+    }
+}
+@media only screen  and (max-width:973px){
+    .twobtns{
+       margin-left: 5%;
+      display: flex;
+      gap: 15px;
+    }
+}

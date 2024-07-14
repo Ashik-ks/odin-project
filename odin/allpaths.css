@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}
+.navimg{
+    margin-top: 13px;
+}
+.nav{
+    margin-left: 13%;
+}
+.btn1{
+    border-radius: 4px;
+   border: 2px solid rgb(49, 150, 19);
+}
+.allpathimg{
+    width: 130px;
+    height: 130px;
+}
+.foundation{
+    margin-left: 10px;
+}
+.btn3{
+    display: none;
+}
+.divzindex{
+    z-index: 1;
+}
+.allpathimg1{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.pathcourse{
+    display: flex;
+    flex-direction: row;
+}
+.pathcourse1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+.pathcourse2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+@media only screen  and (max-width:1024px){
+    .first{
+      display: none;
+    }
+}
+@media only screen  and (max-width:973px){
+    .nav-item,.navbar-brand,.btn1{
+      display: none;
+    }
+}
+@media only screen  and (max-width:973px){
+    .hidden{
+      display: block;
+      position: absolute;
+      right: 1%;
+    }
+}
+@media only screen  and (max-width:768px){
+    .foundationgrid{
+      display:grid;
+      grid-template-rows: repeat(3);
+    }
+}
+@media only screen  and (max-width:768px){
+    .cccc,.btn{
+      display: none;
+    }
+}
+
+@media only screen  and (max-width:768px){
+    .imgfoundation{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+@media only screen  and (max-width:768px){
+    .btn3{
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen  and (max-width:991px){
+    .twogrid{
+      margin-left: -48px;
+      margin-right: -42px;
+    }
+}
+@media only screen  and (max-width:991px){
+    .individualgrid{
+      width: 90vw;
+
+    }
+}
+@media only screen  and (max-width:991px){
+    .btn5{
+      margin-left: 100px;
+    }
+}
