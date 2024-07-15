@@ -14,6 +14,10 @@ a{
 .nav{
     margin-left: 13%;
 }
+.nav-link:hover{
+    border-bottom: 2px solid;
+    color: black;
+}
 .btn1{
     border-radius: 4px;
    border: 2px solid rgb(49, 150, 19);
@@ -72,12 +76,12 @@ a{
       display: none;
     }
 }
-@media only screen  and (max-width:973px){
+@media only screen  and (max-width:1150px){
     .nav-item,.navbar-brand,.btn1{
       display: none;
     }
 }
-@media only screen  and (max-width:973px){
+@media only screen  and (max-width:1150px){
     .hidden{
       display: block;
       position: absolute;
