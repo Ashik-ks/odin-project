@@ -90,7 +90,7 @@ a{
     .imgfoundation{
         display: flex;
         flex-direction: column;
-        margin: auto;
+        margin-left: 28%;
     }
 }
 @media only screen  and (max-width:768px){
@@ -111,8 +111,8 @@ a{
 
     }
 }
-@media only screen  and (max-width:991px){
+/* @media only screen  and (max-width:991px){
     .btn5{
       margin-left: 100px;
     }
-}
+} */
